@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: beige;
+        }
+        div{
+            background-color: orange;
+        }
+
+        .container{
+            background-color: blue;
+        }
+
+        div.info{
+            background-color: cadetblue;
+        }
+
+        .info-1{
+            background-color: aquamarine;
+        }
+        .info-1.info-2 {
+            background-color: chocolate;
+        }
+
+        .container > .span-info {
+            background-color: darkorange;
+        }
+
+        article > h1 {
+            background-color: green;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h1, h2, h3, h4 {
+            background-color: red;
+        }
+
+        .bg-info, .bg-primary, .bg-danger {
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, tempore!</h1>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h3>Lorem, ipsum dolor.</h3>
+    <h4>Lorem, ipsum dolor.</h4>
+
+    <article>
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, numquam.</h1>
+    </article>
+
+    <div class="container">
+        <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, perferendis.</div>
+    </div>
+
+    <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dolore.</p>
+
+    <p class="info-1 info 2">Info: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, maiores.</p>
+
+    <div class="container">
+    <span class="span-info">
+      Info inside container
+    </span>
+    <div>
+      <span class="span-info">
+        Info inside div 
+      </span>
+    </div>
+  </div>
+
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, rem.</div>
+</body>
+</html>
