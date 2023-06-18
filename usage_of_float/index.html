@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+
+    <style>
+        .box{
+            width: 150px;
+            float: left;
+            margin-right: 10px;
+        }
+        .bg-blue{
+            background-color: blue;
+        }
+        .bg-red{
+            background-color: red;
+        }
+        .clear-fix{
+            clear: both;
+        }
+        main{
+            width: 800px;
+            margin: 20px auto 0;
+        }
+        main > aside{
+            width: 30%;
+            float: left;
+        }
+        main > section
+        {
+            width: 70%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="box bg-blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, perspiciatis.</div>
+    <div class="box bg-blue">Sapiente voluptatum nesciunt natus numquam! Quisquam tempore voluptate natus provident?</div>
+    <div class="box bg-blue">Velit, molestiae! Commodi quaerat nemo velit asperiores nam, deserunt ea!</div>
+    <div class="box bg-blue">Impedit consequuntur assumenda, eum nihil vero perferendis libero in est.</div>
+    <div class="box bg-blue">Nesciunt deserunt placeat at tempora inventore earum, quod voluptatibus recusandae.</div>
+
+    <div class="clear-fix"></div>
+
+    <div class="bg-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, velit!</div>
+
+    <main>
+        <aside class="bg-blue">
+            <ul>
+                <li>Lorem.</li>
+                <li>Quam!</li>
+                <li>Est.</li>
+                <li>Itaque.</li>
+                <li>Ipsum?</li>
+                <li>Libero.</li>
+                <li>Eaque!</li>
+                <li>Provident?</li>
+                <li>Amet!</li>
+                <li>Rerum!</li>
+            </ul>
+        </aside>
+        <section class="bg-red">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, consequatur?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam magni molestiae reiciendis nostrum fugit corporis asperiores, tenetur eum repellendus quia?</p>
+            <p>Officiis, dolores. Molestias sed quod, provident facere magni error expedita pariatur nesciunt perferendis soluta laboriosam alias quas, quo, minus quos?</p>
+            <p>Illo consectetur deserunt, facere omnis laborum delectus eos atque debitis necessitatibus! Nemo, labore? Deleniti eligendi, ut quos consectetur doloremque quia.</p>
+        </section>
+    </main>
+
+</body>
+</html>
