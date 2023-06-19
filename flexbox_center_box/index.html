@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+            
+        :root {
+            --green: #2ecc71;
+            --blue: #3498db;
+            --yellow: #f1c40f;
+            --red: #e74c3c;
+            --dark-blue: #34495e;
+            --midnight-blue: #2c3e50;
+            --light-white: #ecf0f1;
+            --silver: #bdc3c7;
+        }
+
+        body {
+            background-color: var(--silver);
+            margin: 0;
+            padding: 0;
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background-color: var(--light-white);
+            border-radius: 20px;
+            width: 600px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login > input, 
+        .login > button {
+            margin-bottom: 10px;
+            padding: 5px 10px;
+        }
+ 
+    </style>
+    <title>FlexBox Login</title>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="login">
+                <h2>Login:</h2>
+                <input type="text" placeholder="username">
+                <input type="password" placeholder="password">
+                <button type="submit">Giris Yap</button>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, nesciunt aspernatur. Repudiandae labore aperiam eius neque porro sapiente! Unde, sequi?</p>
+                <p>Facere aperiam, aspernatur impedit, inventore nisi, perspiciatis cum ea reprehenderit maiores possimus quas eligendi quo in? Officiis eius inventore qui?</p>
+                <p>Impedit hic iusto voluptatibus numquam alias nemo praesentium tempora amet maxime, ullam totam laborum molestiae architecto quis corporis ad ipsam.</p>
+            </div>
+        </div>
+
+</body>
+</html>
