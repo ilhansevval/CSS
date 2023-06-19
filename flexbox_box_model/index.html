@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --green: #2ecc71;
+            --blue: #3498db;
+            --yellow: #f1c40f;
+            --red: #e74c3c;
+            --dark-blue: #34495e;
+            --midnight-blue: #2c3e50;
+            --light-white: #ecf0f1;
+            --silver: #bdc3c7;
+        }
+
+        body {
+            background-color: var(--silver);
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex-container{
+            width: 800px;
+            margin: auto;
+            background-color: var(--light-white);
+            display: flex;
+            flex-direction: column;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            /* flex-direction: row-reverse; */
+            width: 800px;
+            /* margin-top: 0; */
+            /* justify-content: flex-end; */
+            margin: 0 auto;
+            justify-content: space-around;
+            background-color: var(--green);
+        }
+
+        .item {
+            background-color: var(--yellow);
+            margin: 10px;
+        }
+
+        nav{
+            background-color: var(--light-white);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul > li {
+            margin: 0;
+        }
+
+    </style>
+    <title>FlexBox Box Model</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+            <li>item-6</li>
+            <li>item-7</li>
+            <li>item-8</li>
+            <li>item-9</li>
+            <li>item-10</li>
+        </ul>
+    </nav>
+    
+
+    <div class="flex-container">
+        <div class="item">Lorem.</div>
+        <div class="item">Esse?</div>
+        <div class="item">Inventore!</div>
+        <div class="item">Harum!</div>
+    </div>
+
+    <!-- <ul>
+        <li><a href="">Lorem.</a></li>
+        <li><a href="">Explicabo.</a></li>
+        <li><a href="">Quisquam.</a></li>
+        <li><a href="">Tempora.</a></li>
+        <li><a href="">Ipsam?</a></li>
+        <li><a href="">Repellat?</a></li>
+    </ul> -->
+
+</body>
+</html>
